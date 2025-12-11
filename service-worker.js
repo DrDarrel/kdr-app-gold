@@ -1,1 +1,1 @@
-self.addEventListener('install', e => { console.log('Service Worker Installed — Gold v2.3 Full Multi-Card Demo'); });
+self.addEventListener('install', e => { console.log('Service Worker Installed — Gold v2.4 Real A1–A5'); });
