@@ -1,1 +1,44 @@
-{"A": [{"title": "A1 \u2014 Anxious", "content": "When you feel anxious and overwhelmed, pause, breathe, and remember that God is present in this very moment."}, {"title": "A2 \u2014 Ashamed After Relapse", "content": "Shame says you are your failure. Grace says you are still God\u2019s child. Come back to Him, even if it is the hundredth time."}, {"title": "A3 \u2014 Angry", "content": "Anger is a signal, not a destiny. Let it point you toward what needs healing, then invite God into that space."}], "S": [{"title": "S1 \u2014 Tempted", "content": "Temptation always offers a shortcut. Remember what you truly want long-term, not just what looks good right now."}, {"title": "S2 \u2014 Money Is Tight", "content": "Scarcity screams, but the Kingdom whispers, \u2018Seek first the King and His righteousness, and all these things shall be added unto you.\u2019"}, {"title": "S3 \u2014 Conflict at Home", "content": "When tension rises at home, slow your words and shorten your sentences. Ask the Holy Spirit to help you listen before you defend."}], "P": [{"title": "P1 \u2014 Daily Prayer Rhythm", "content": "Begin and end each day with a simple prayer: \u2018Lord, align my thoughts, my words, and my actions with Your Kingdom today.\u2019"}, {"title": "P2 \u2014 Pray the Scriptures", "content": "Turn a verse into a conversation with God. Read it slowly, then answer Him honestly about how it touches your life."}, {"title": "P3 \u2014 Evening Check-In", "content": "Before bed, replay the day with the Lord. Celebrate where you walked in step with Him, and release where you missed it."}]}
+{
+  "A": [
+    {
+      "code": "A1",
+      "title": "Anxious",
+      "anchor_ref": "Philippians 4:6–7",
+      "anchor_text": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.",
+      "align": "God invites me to bring every worry to Him instead of carrying it alone. Anxiety is real, but it is not my identity in Christ.",
+      "act": "1) Pause and breathe slowly.\n2) Name what I am anxious about.\n3) Tell God specifically what I need.\n4) Thank Him in advance for how He will help.",
+      "pray": "Lord, You see the storm inside of me. I choose to bring my fears to You instead of carrying them alone. Calm my mind, guard my heart, and help me trust You with what I cannot control.",
+      "evening": "Did I carry my worries alone today, or did I bring them back to God in prayer?",
+      "supports": "Reach out to a trusted friend, mentor, or pastor who can pray with you. Consider talking to a Christian counselor if anxiety is intense or ongoing.",
+      "tags": ["anxious", "worry", "fear", "stress", "overwhelmed"]
+    }
+  ],
+  "S": [
+    {
+      "code": "S1",
+      "title": "Tempted",
+      "anchor_ref": "1 Corinthians 10:13",
+      "anchor_text": "There hath no temptation taken you but such as is common to man...",
+      "align": "Temptation is common to all believers. God always provides a way to escape, even when the pressure feels overwhelming.",
+      "act": "1) Admit the temptation honestly to God.\n2) Step away from the situation or trigger.\n3) Call or message someone who will support your Kingdom choice.\n4) Replace the tempting thought with a verse or worship.",
+      "pray": "Lord, You see where I am tempted right now. Thank You for making a way of escape. Strengthen my will to choose Your way instead of what my flesh wants in this moment.",
+      "evening": "When temptation came today, did I look for God’s way of escape or try to fight it alone?",
+      "supports": "Identify one or two people you can contact when you feel tempted. Ask them in advance to support you with prayer and accountability.",
+      "tags": ["temptation", "lust", "habits", "self-control", "escape"]
+    }
+  ],
+  "P": [
+    {
+      "code": "P1",
+      "title": "Daily Prayer Rhythm",
+      "anchor_ref": "1 Thessalonians 5:17",
+      "anchor_text": "Pray without ceasing.",
+      "align": "Prayer is not just an emergency button; it is a daily rhythm of staying in step with the King.",
+      "act": "1) Choose a simple morning prayer.\n2) Pause briefly at lunch to reconnect with God.\n3) End the day thanking Him for specific blessings.\n4) Keep your prayers honest, not fancy.",
+      "pray": "Father, teach me to walk through this day in conversation with You. Help me keep my heart open, my ears attentive, and my words honest in Your presence.",
+      "evening": "Did I include God in the flow of my day, or only when something went wrong?",
+      "supports": "Use reminders on your phone labeled with short prayer prompts. Consider a small notebook or app where you jot down quick prayers and answers.",
+      "tags": ["prayer", "habits", "rhythm", "daily walk", "relationship"]
+    }
+  ]
+}
