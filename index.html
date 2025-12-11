@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KDR App — Gold Edition v2.0</title>
+<title>KDR App — Gold Edition v2.1 (Search Demo)</title>
 <link rel="manifest" href="manifest.json">
 <style>
 body {
@@ -27,7 +27,7 @@ header {
   display:flex;
   justify-content:center;
   gap:12px;
-  padding:10px 10px 16px 10px;
+  padding:10px 10px 10px 10px;
   border-bottom:1px solid #222;
 }
 .book-bar button {
@@ -73,7 +73,7 @@ nav button:hover {
   transform:scale(1.05);
 }
 section {
-  padding:24px 20px 110px 20px;
+  padding:18px 20px 110px 20px;
   display:none;
   opacity:0;
   transition:opacity 0.3s ease-in-out;
@@ -85,7 +85,7 @@ section.active {
 .card {
   background:#111;
   padding:18px;
-  margin:14px 0;
+  margin:10px 0;
   border-radius:12px;
   border:1px solid #D4AF37;
   box-shadow:0 0 10px #000 inset;
@@ -97,7 +97,7 @@ section.active {
 }
 h2 {
   padding-bottom:6px;
-  margin-bottom:18px;
+  margin-bottom:14px;
   font-size:20px;
   color:#D4AF37;
   border-bottom:1px solid #D4AF37;
@@ -110,6 +110,40 @@ h3 {
 p {
   font-size:14px;
   line-height:1.4;
+}
+#searchBar {
+  margin:10px 0 12px 0;
+  display:flex;
+  gap:8px;
+}
+#searchInput {
+  flex:1;
+  padding:8px 10px;
+  border-radius:8px;
+  border:1px solid #444;
+  background:#050505;
+  color:#eee;
+  font-size:14px;
+}
+#searchButton {
+  padding:8px 14px;
+  border-radius:8px;
+  border:1px solid #D4AF37;
+  background:#000;
+  color:#D4AF37;
+  font-size:13px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.25s;
+}
+#searchButton:hover {
+  background:#D4AF37;
+  color:#000;
+}
+#searchResultsInfo {
+  font-size:12px;
+  color:#aaa;
+  margin-bottom:6px;
 }
 </style>
 </head>
@@ -124,7 +158,13 @@ p {
 
 <section id="home" class="active">
   <h2>Welcome</h2>
-  <p>This is the KDR Gold Edition App v2.0. Use the buttons below to explore A-Series, S-Series, and P-Series sample content.</p>
+  <p>Type what you are feeling or looking for. This demo search looks through sample A, S, and P cards.</p>
+  <div id="searchBar">
+    <input id="searchInput" type="text" placeholder="Type a word like anxious, tempted, money, prayer...">
+    <button id="searchButton" onclick="runSearch()">Search</button>
+  </div>
+  <div id="searchResultsInfo"></div>
+  <div id="searchResults"></div>
 </section>
 
 <section id="A">
