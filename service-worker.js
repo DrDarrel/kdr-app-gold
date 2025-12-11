@@ -1,0 +1,1 @@
+self.addEventListener('install', e => { console.log('Service Worker Installed — Gold v2.0'); });

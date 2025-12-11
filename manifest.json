@@ -1,0 +1,1 @@
+{"name": "KDR App Gold Edition", "short_name": "KDR Gold", "start_url": ".", "display": "standalone", "background_color": "#000000", "theme_color": "#D4AF37", "icons": [{"src": "icon_192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon_512.png", "sizes": "512x512", "type": "image/png"}]}
