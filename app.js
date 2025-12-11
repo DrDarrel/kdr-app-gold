@@ -35,19 +35,27 @@ function runSearch(){
 
   ['A','S','P'].forEach(series => {
     (kdrData[series] || []).forEach(card => {
-      const hay = (card.title + ' ' + card.content).toLowerCase();
+      const hay = [
+        card.code,
+        card.title,
+        card.anchor_ref,
+        card.anchor_text,
+        card.align,
+        card.act,
+        card.pray,
+        card.evening,
+        card.supports,
+        (card.tags || []).join(' ')
+      ].join(' ').toLowerCase();
+
       if(hay.includes(input)){
-        matches.push({
-          series,
-          title: card.title,
-          content: card.content
-        });
+        matches.push({ series, card });
       }
     });
   });
 
   if(matches.length === 0){
-    infoDiv.textContent = 'No matching cards found yet in this demo.';
+    infoDiv.textContent = 'No matching cards found yet.';
     return;
   }
 
@@ -57,7 +65,27 @@ function runSearch(){
     const div = document.createElement('div');
     div.className = 'card';
     const label = m.series === 'A' ? 'A-Series' : (m.series === 'S' ? 'S-Series' : 'P-Series');
-    div.innerHTML = '<h3>' + label + ': ' + m.title + '</h3><p>' + m.content + '</p>';
+    const card = m.card;
+
+    const anchorRef = card.anchor_ref ? `<p><strong>Anchor:</strong> ${card.anchor_ref}</p>` : '';
+    const anchorText = card.anchor_text ? `<p>${card.anchor_text}</p>` : '';
+    const align = card.align ? `<p><strong>Align:</strong> ${card.align}</p>` : '';
+    const act = card.act ? `<p><strong>Act:</strong><br>${card.act.replace(/\n/g, '<br>')}</p>` : '';
+    const pray = card.pray ? `<p><strong>Pray:</strong> ${card.pray}</p>` : '';
+    const evening = card.evening ? `<p><strong>Evening Check-In:</strong> ${card.evening}</p>` : '';
+    const supports = card.supports ? `<p><strong>Wise Supports:</strong> ${card.supports}</p>` : '';
+
+    div.innerHTML = `
+      <h3>${label}: ${card.code ? card.code + ' — ' : ''}${card.title || ''}</h3>
+      ${anchorRef}
+      ${anchorText}
+      ${align}
+      ${act}
+      ${pray}
+      ${evening}
+      ${supports}
+    `;
+
     resultsDiv.appendChild(div);
   });
 }
@@ -66,19 +94,39 @@ fetch('kdr.json')
   .then(r=>r.json())
   .then(data=>{
     kdrData = data;
-    loadCards('A-list', data.A);
-    loadCards('S-list', data.S);
-    loadCards('P-list', data.P);
+    loadCards('A-list', data.A || []);
+    loadCards('S-list', data.S || []);
+    loadCards('P-list', data.P || []);
   })
   .catch(err=>console.error('Error loading KDR data', err));
 
 function loadCards(containerId, cards){
   const c = document.getElementById(containerId);
   c.innerHTML = '';
+
   cards.forEach(card => {
     const div = document.createElement('div');
     div.className = 'card';
-    div.innerHTML = '<h3>'+card.title+'</h3><p>'+card.content+'</p>';
+
+    const anchorRef = card.anchor_ref ? `<p><strong>Anchor:</strong> ${card.anchor_ref}</p>` : '';
+    const anchorText = card.anchor_text ? `<p>${card.anchor_text}</p>` : '';
+    const align = card.align ? `<p><strong>Align:</strong> ${card.align}</p>` : '';
+    const act = card.act ? `<p><strong>Act:</strong><br>${card.act.replace(/\n/g, '<br>')}</p>` : '';
+    const pray = card.pray ? `<p><strong>Pray:</strong> ${card.pray}</p>` : '';
+    const evening = card.evening ? `<p><strong>Evening Check-In:</strong> ${card.evening}</p>` : '';
+    const supports = card.supports ? `<p><strong>Wise Supports:</strong> ${card.supports}</p>` : '';
+
+    div.innerHTML = `
+      <h3>${card.code ? card.code + ' — ' : ''}${card.title || ''}</h3>
+      ${anchorRef}
+      ${anchorText}
+      ${align}
+      ${act}
+      ${pray}
+      ${evening}
+      ${supports}
+    `;
+
     c.appendChild(div);
   });
 }
