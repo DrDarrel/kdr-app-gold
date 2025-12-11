@@ -1,1 +1,1 @@
-self.addEventListener('install', e => { console.log('Service Worker Installed — Gold v2.4 Real A1–A5'); });
+self.addEventListener('install', e => { console.log('Service Worker Installed — Gold v2.5 Real A1–A5 & S1–S5'); });
