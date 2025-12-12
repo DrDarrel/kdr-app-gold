@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KDR App — Gold Edition v2.6 (Real A1–A5, S1–S5, P1–P5)</title>
-<link rel="manifest" href="manifest.json">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KDR App — Gold Edition v2.12</title>
+<link href="manifest.json" rel="manifest"/>
 <style>
 body {
   background:#000;
@@ -153,50 +154,89 @@ p {
   font-weight:bold;
   margin-top:8px;
 }
+
+header {
+  background:#000;
+  padding:16px 16px 10px 16px;
+  border-bottom:2px solid #D4AF37;
+}
+.header-inner {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+}
+.seal-logo {
+  width:64px;
+  height:64px;
+  border-radius:50%;
+}
+.header-text {
+  text-align:left;
+}
+.header-title {
+  font-size:24px;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#D4AF37;
+}
+.header-subtitle {
+  font-size:12px;
+  color:#c9a95e;
+  margin-top:2px;
+}
+.card {
+  position:relative;
+  overflow:hidden;
+}
+.card::before {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url('kdr_seal.png') center/220px 220px no-repeat;
+  opacity:0.06;
+  pointer-events:none;
+}
+.card > * {
+  position:relative;
+  z-index:1;
+}
 </style>
 </head>
 <body>
-
-<header>KDR App — Gold Edition</header>
-
+<header><div class="header-inner"><img alt="KDR Official Seal" class="seal-logo" src="kdr_seal.png"/><div class="header-text"><div class="header-title">KDR App — Gold Edition</div><div class="header-subtitle">Developed by Dr. Darrel M. Polk</div></div></div></header>
 <div class="book-bar">
-  <button onclick="openBook('deepdive')">Deep Dive Companion</button>
-  <button onclick="openBook('ofitk')">Our Father Is The King</button>
+<button onclick="openBook('deepdive')">Deep Dive Companion</button>
+<button onclick="openBook('ofitk')">Our Father Is The King</button>
 </div>
+<section class="active" id="home"><h2>Welcome to the Kingdom Desk Reference App</h2><p>This KDR Gold Edition app is your daily Kingdom lifestyle companion. Use the A-Series to align your heart and identity, the S-Series to anchor yourself in Scripture, and the P-Series to practice Kingdom living through daily actions. You can search for words like “worship,” “trust,” “peace,” or “forgiveness” to quickly find the card you need in the moment.</p>
 
-<section id="home" class="active">
-  <h2>Welcome</h2>
-  <p>This is the KDR Gold Edition App v2.6. A1–A5, S1–S5, and P1–P5 now use your true manuscript content. Search looks through all A, S, and P cards.</p>
-  <div id="searchBar">
-    <input id="searchInput" type="text" placeholder="Type a word like worship, trust, peace, joy, forgiveness...">
-    <button id="searchButton" onclick="runSearch()">Search</button>
-  </div>
-  <div id="searchResultsInfo"></div>
-  <div id="searchResults"></div>
+
+<div id="searchBar">
+<input id="searchInput" placeholder="Type a word like worship, trust, peace, joy, forgiveness..." type="text"/>
+<button id="searchButton" onclick="runSearch()">Search</button>
+</div>
+<div id="searchResultsInfo"></div>
+<div id="searchResults"></div>
 </section>
-
 <section id="A">
-  <h2>A-Series (Feelings / Alignment)</h2>
-  <div id="A-list"></div>
+<h2>A-Series (Feelings / Alignment)</h2>
+<div id="A-list"></div>
 </section>
-
 <section id="S">
-  <h2>S-Series (Situations)</h2>
-  <div id="S-list"></div>
+<h2>S-Series (Situations)</h2>
+<div id="S-list"></div>
 </section>
-
 <section id="P">
-  <h2>P-Series (Practices)</h2>
-  <div id="P-list"></div>
+<h2>P-Series (Practices)</h2>
+<div id="P-list"></div>
 </section>
-
 <nav>
-  <button onclick="showSection('home')">Home</button>
-  <button onclick="showSection('A')">A-Series</button>
-  <button onclick="showSection('S')">S-Series</button>
-  <button onclick="showSection('P')">P-Series</button>
+<button onclick="showSection('home')">Home</button>
+<button onclick="showSection('A')">A-Series</button>
+<button onclick="showSection('S')">S-Series</button>
+<button onclick="showSection('P')">P-Series</button>
 </nav>
-
 <script src="app.js"></script>
 </body>
 </html>
