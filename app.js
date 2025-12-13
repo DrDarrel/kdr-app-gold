@@ -172,7 +172,8 @@ function renderCrisisList(){
   if(!cards.length){
     const div = document.createElement('div');
     div.className = 'card';
-    div.innerHTML = '<p><strong>Crisis Care cards are not loaded yet.</strong><br>Make sure kdr.json includes a <code>C</code> series with C1–C5.</p>';
+    div.innerHTML = '<p><strong>Immediate Help</strong><br><a href="#C1">Open C1 — When I Want to Hurt Myself</a></p>';
+
     list.appendChild(div);
     return;
   }
