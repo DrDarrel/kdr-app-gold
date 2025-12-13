@@ -33,7 +33,7 @@ function runSearch(){
 
   let matches = [];
 
-  ['A','S','P'].forEach(series => {
+  ['A','S','P','C'].forEach(series => {
     (kdrData[series] || []).forEach(card => {
       const hay = [
         card.code,
@@ -66,7 +66,7 @@ function runSearch(){
   matches.forEach(m => {
     const div = document.createElement('div');
     div.className = 'card';
-    const label = m.series === 'A' ? 'A-Series' : (m.series === 'S' ? 'S-Series' : 'P-Series');
+    const label = m.series === 'A' ? 'A-Series' : (m.series === 'S' ? 'S-Series' : (m.series === 'P' ? 'P-Series' : 'Crisis Care'));
     const card = m.card;
 
     div.innerHTML = renderCardHtml(label, card);
@@ -106,6 +106,8 @@ fetch('kdr.json')
     loadCards('A-list', data.A || [], 'A-Series');
     loadCards('S-list', data.S || [], 'S-Series');
     loadCards('P-list', data.P || [], 'P-Series');
+    // C-Series (Crisis Care) is accessed via the HELP ME button
+
   })
   .catch(err=>console.error('Error loading KDR data', err));
 
@@ -120,3 +122,84 @@ function loadCards(containerId, cards, seriesLabel){
     c.appendChild(div);
   });
 }
+
+// ---------------------------
+// HELP ME (Crisis Care) Modal
+// ---------------------------
+function openHelp(){
+  const modal = document.getElementById('helpModal');
+  if(!modal) return;
+  modal.classList.add('show');
+  modal.setAttribute('aria-hidden','false');
+  showHelpList();
+  renderCrisisList();
+}
+
+function closeHelp(){
+  const modal = document.getElementById('helpModal');
+  if(!modal) return;
+  modal.classList.remove('show');
+  modal.setAttribute('aria-hidden','true');
+}
+
+function showHelpList(){
+  const intro = document.getElementById('helpViewIntro');
+  const detail = document.getElementById('helpViewDetail');
+  if(intro) intro.style.display = 'block';
+  if(detail) detail.style.display = 'none';
+}
+
+function showHelpDetail(card){
+  const intro = document.getElementById('helpViewIntro');
+  const detail = document.getElementById('helpViewDetail');
+  const box = document.getElementById('helpCardDetail');
+  if(intro) intro.style.display = 'none';
+  if(detail) detail.style.display = 'block';
+  if(box){
+    box.innerHTML = renderCardHtml('Crisis Care', card);
+  }
+  // ensure modal scrolls to top for readability
+  const modalContent = document.querySelector('#helpModal .modal-content');
+  if(modalContent) modalContent.scrollTop = 0;
+}
+
+function renderCrisisList(){
+  const list = document.getElementById('helpCardList');
+  if(!list) return;
+  list.innerHTML = '';
+  const cards = (kdrData && kdrData.C) ? kdrData.C : [];
+
+  if(!cards.length){
+    const div = document.createElement('div');
+    div.className = 'card';
+    div.innerHTML = '<p><strong>Crisis Care cards are not loaded yet.</strong><br>Make sure kdr.json includes a <code>C</code> series with C1–C5.</p>';
+    list.appendChild(div);
+    return;
+  }
+
+  // sort by code (C1, C2, ...)
+  cards.sort((a,b)=>{
+    const na = parseInt((a.code||'').replace(/\D/g,'')) || 0;
+    const nb = parseInt((b.code||'').replace(/\D/g,'')) || 0;
+    return na-nb;
+  });
+
+  cards.forEach(card=>{
+    const btn = document.createElement('button');
+    btn.className = 'helpCardBtn';
+    const code = card.code ? card.code + ' — ' : '';
+    btn.textContent = code + (card.title || 'Crisis Care');
+    btn.onclick = ()=>showHelpDetail(card);
+    list.appendChild(btn);
+  });
+}
+
+// Close modal on ESC
+document.addEventListener('keydown', (e)=>{
+  if(e.key === 'Escape'){
+    const modal = document.getElementById('helpModal');
+    if(modal && modal.classList.contains('show')){
+      closeHelp();
+    }
+  }
+});
