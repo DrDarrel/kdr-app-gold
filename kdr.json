@@ -1,4 +1,372 @@
-{
+{"C": "C": [
+  {
+    "id": "C1",
+    "series": "C",
+    "title": "When I Want to Hurt Myself",
+    "tags": ["crisis", "self-harm", "suicidal-thoughts", "immediate-help", "safety"],
+    "blocks": [
+      {
+        "type": "narrative",
+        "label": "Narrative",
+        "text": "When pain becomes overwhelming, thoughts of harming yourself can surface as an attempt to quiet what hurts inside. These thoughts do not define you, and they are not proof that you are weak, faithless, or beyond help. They are a sign that you are in a real spiritual and emotional battle. The enemy targets life because life carries destiny. If he can take you out now, he believes he can cancel the future God placed within you.\n\nThis moment is not your ending. You are not your thoughts. You are a child of the King whose life still matters. This card exists to interrupt the spiral and remind you: you are worth protecting—right now."
+      },
+      {
+        "type": "anchor",
+        "label": "Anchor Scriptures",
+        "items": [
+          "Psalm 34:18 (KJV) — “The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.”",
+          "Jeremiah 29:11 (KJV) — “For I know the thoughts that I think toward you… to give you an expected end.”",
+          "Romans 8:38–39 (KJV) — Nothing can separate us from the love of God."
+        ]
+      },
+      {
+        "type": "align",
+        "label": "Align (Heart)",
+        "items": [
+          "I am not an accident; I am an assignment.",
+          "My life is valuable to God—even when I cannot feel it.",
+          "These thoughts are an attack, not my identity.",
+          "I choose life in this moment."
+        ]
+      },
+      {
+        "type": "act",
+        "label": "Act (Steps)",
+        "items": [
+          "Place a hand on your chest and breathe slowly for 30 seconds. Say, “God, keep me.”",
+          "Create distance from anything you could use to harm yourself.",
+          "Contact a trusted person now and say, “I’m not okay. I need you.”",
+          "Read Psalm 34 aloud (as much as you can).",
+          "If thoughts feel unsafe or uncontrollable, seek immediate help (see Crisis Note)."
+        ]
+      },
+      {
+        "type": "pray",
+        "label": "Pray",
+        "text": "Father, I am overwhelmed and need Your protection. I reject the lie that my life has no value. Hold me through this moment and surround me with help. Remind me why You created me. Amen."
+      },
+      {
+        "type": "checkin",
+        "label": "Evening Check-In",
+        "items": [
+          "Did I tell someone the truth about how I felt today?",
+          "What helped me stay here, even when it was hard?",
+          "Where did I sense God’s nearness?"
+        ]
+      },
+      {
+        "type": "supports",
+        "label": "Wise Supports",
+        "items": [
+          "Do not fight these thoughts alone.",
+          "Write three reasons your life matters (even if belief feels weak).",
+          "Stay connected to a pastor, counselor, or trusted mentor."
+        ]
+      },
+      {
+        "type": "crisis_note",
+        "label": "Crisis Note (Immediate Help)",
+        "text": "If you feel you may act on thoughts of self-harm or suicide, seek help immediately.\n- U.S.: Call or text 988 — Suicide & Crisis Lifeline (24/7, confidential).\n- Outside the U.S.: Contact your local emergency number or a trusted crisis line."
+      },
+      {
+        "type": "xref",
+        "label": "Cross-References",
+        "items": [
+          "Quick Help: KDR A1 (Identity)",
+          "Quick Help: KDR S4 (God Is My Refuge and Strength)",
+          "Quick Help: KDR P5 (Forgiveness & Freedom)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C2",
+    "series": "C",
+    "title": "When I Feel Like Disappearing",
+    "tags": ["crisis", "overwhelm", "withdrawal", "escape", "refuge"],
+    "blocks": [
+      {
+        "type": "narrative",
+        "label": "Narrative",
+        "text": "Sometimes the desire isn’t to die, but to escape—to disappear from pressure, expectations, shame, or exhaustion. This urge signals overload, not worthlessness. God sees you fully. Wanting to disappear means you need refuge, not erasure."
+      },
+      {
+        "type": "anchor",
+        "label": "Anchor Scriptures",
+        "items": [
+          "Psalm 139:7–10 (KJV) — Wherever you go, God is there.",
+          "Psalm 61:2 (KJV) — “When my heart is overwhelmed: lead me to the rock that is higher than I.”"
+        ]
+      },
+      {
+        "type": "align",
+        "label": "Align (Heart)",
+        "items": [
+          "God sees me even when I feel unseen.",
+          "Rest is permitted; isolation is not required.",
+          "I am allowed to pause without disappearing."
+        ]
+      },
+      {
+        "type": "act",
+        "label": "Act (Steps)",
+        "items": [
+          "Name what you want to escape from and give it to God.",
+          "Move to a quieter, safer space.",
+          "Say, “Jesus, be my refuge right now.”",
+          "Ask one person to simply be present.",
+          "Make one small life-preserving choice (rest, water, step away)."
+        ]
+      },
+      {
+        "type": "pray",
+        "label": "Pray",
+        "text": "Lord, hide me in You. Be my refuge when everything feels too much. Cover me with Your peace. Amen."
+      },
+      {
+        "type": "checkin",
+        "label": "Evening Check-In",
+        "items": [
+          "When did I feel the urge to withdraw today?",
+          "What helped me remain present?",
+          "Where did God provide support?"
+        ]
+      },
+      {
+        "type": "supports",
+        "label": "Wise Supports",
+        "items": [
+          "Schedule regular rest.",
+          "Let trusted people know withdrawal often signals overwhelm.",
+          "Avoid big decisions when you want to disappear."
+        ]
+      },
+      {
+        "type": "xref",
+        "label": "Cross-References",
+        "items": [
+          "Quick Help: KDR S3 (Be Still and Know)",
+          "Quick Help: KDR P3 (Peace & Patience)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C3",
+    "series": "C",
+    "title": "When Dark Thoughts Come Suddenly",
+    "tags": ["crisis", "intrusive-thoughts", "mind", "spiritual-warfare", "authority"],
+    "blocks": [
+      {
+        "type": "narrative",
+        "label": "Narrative",
+        "text": "Sudden intrusive thoughts can be frightening. A thought is not consent. A flash is not failure. These moments are often attempts to breach the mind’s gate. In Christ, you have authority to reject what does not belong."
+      },
+      {
+        "type": "anchor",
+        "label": "Anchor Scriptures",
+        "items": [
+          "2 Corinthians 10:5 (KJV) — Bringing thoughts into captivity.",
+          "Philippians 4:8 (KJV) — Set the mind on what is true."
+        ]
+      },
+      {
+        "type": "align",
+        "label": "Align (Heart)",
+        "items": [
+          "I do not have to agree with every thought.",
+          "In Christ, my mind can be guarded.",
+          "These flashes are attacks—not my desires."
+        ]
+      },
+      {
+        "type": "act",
+        "label": "Act (Steps)",
+        "items": [
+          "Say aloud: “I reject that thought in Jesus’ name.”",
+          "Replace it with Scripture (Psalm 118:17).",
+          "Change posture or environment.",
+          "Tell God honestly what scared you."
+        ]
+      },
+      {
+        "type": "pray",
+        "label": "Pray",
+        "text": "Lord, guard my mind. Teach me to cast down imaginations and walk in truth. Amen."
+      },
+      {
+        "type": "checkin",
+        "label": "Evening Check-In",
+        "items": [
+          "What thoughts needed correcting today?",
+          "How quickly did I respond with truth?",
+          "Which Scripture helped most?"
+        ]
+      },
+      {
+        "type": "supports",
+        "label": "Wise Supports",
+        "items": [
+          "Memorize life-giving Scriptures.",
+          "Limit media that feeds dark imagery.",
+          "Share early with a trusted person if flashes increase."
+        ]
+      },
+      {
+        "type": "xref",
+        "label": "Cross-References",
+        "items": [
+          "Quick Help: KDR P2 (Trust & Surrender)",
+          "Quick Help: KDR S2 (The Lord Is My Light and Salvation)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C4",
+    "series": "C",
+    "title": "When I Feel Hopeless and Heavy",
+    "tags": ["crisis", "depression", "heaviness", "hope", "lament"],
+    "blocks": [
+      {
+        "type": "narrative",
+        "label": "Narrative",
+        "text": "Heaviness can linger like a fog. Scripture honors honest lament and promises God’s nearness in sorrow. This season is not your identity. Even in the valley, the Shepherd walks with you."
+      },
+      {
+        "type": "anchor",
+        "label": "Anchor Scriptures",
+        "items": [
+          "Psalm 42:5 (KJV) — Hope in God.",
+          "Isaiah 61:3 (KJV) — The garment of praise for heaviness."
+        ]
+      },
+      {
+        "type": "align",
+        "label": "Align (Heart)",
+        "items": [
+          "God has not left me.",
+          "My feelings are real, but they are not my ruler.",
+          "Hope remains possible."
+        ]
+      },
+      {
+        "type": "act",
+        "label": "Act (Steps)",
+        "items": [
+          "Name the heaviness before God.",
+          "Do one gentle body-care step.",
+          "Play one worship song focused on God’s faithfulness.",
+          "Tell someone, “I’m struggling today.”"
+        ]
+      },
+      {
+        "type": "pray",
+        "label": "Pray",
+        "text": "Father, exchange my heaviness for hope. Walk with me and remind me I am not alone. Amen."
+      },
+      {
+        "type": "checkin",
+        "label": "Evening Check-In",
+        "items": [
+          "What small step did I take today?",
+          "Who did I let in?",
+          "Where did I see God’s kindness?"
+        ]
+      },
+      {
+        "type": "supports",
+        "label": "Wise Supports",
+        "items": [
+          "Keep simple daily rhythms.",
+          "Seek pastoral or Christian counseling support.",
+          "Reduce comparison triggers."
+        ]
+      },
+      {
+        "type": "xref",
+        "label": "Cross-References",
+        "items": [
+          "Quick Help: KDR P1 (Worship & Gratitude)",
+          "Quick Help: KDR A30 (Contentment)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C5",
+    "series": "C",
+    "title": "When My Identity Feels Confused or Broken",
+    "tags": ["crisis", "identity", "confusion", "clarity"],
+    "blocks": [
+      {
+        "type": "narrative",
+        "label": "Narrative",
+        "text": "Identity confusion can be painful and disorienting. God is not the author of confusion. He formed you with intention and walks patiently with your questions. Your truest identity begins with Him."
+      },
+      {
+        "type": "anchor",
+        "label": "Anchor Scriptures",
+        "items": [
+          "Psalm 139:13–14 (KJV) — Fearfully and wonderfully made.",
+          "Jeremiah 1:5 (KJV) — Known and appointed.",
+          "1 Corinthians 14:33 (KJV) — God is not the author of confusion."
+        ]
+      },
+      {
+        "type": "align",
+        "label": "Align (Heart)",
+        "items": [
+          "God knows me better than I know myself.",
+          "I am not a mistake.",
+          "Confusion is not my destiny."
+        ]
+      },
+      {
+        "type": "act",
+        "label": "Act (Steps)",
+        "items": [
+          "Invite God into your questions.",
+          "Write three Scripture-based identity truths.",
+          "Limit voices that amplify confusion.",
+          "Seek wise, compassionate believers."
+        ]
+      },
+      {
+        "type": "pray",
+        "label": "Pray",
+        "text": "Father, calm the noise and speak truth to my identity. Lead me into clarity one step at a time. Amen."
+      },
+      {
+        "type": "checkin",
+        "label": "Evening Check-In",
+        "items": [
+          "Where did confusion surface today?",
+          "What brought peace?",
+          "What truth can I carry tomorrow?"
+        ]
+      },
+      {
+        "type": "supports",
+        "label": "Wise Supports",
+        "items": [
+          "Do not journey alone.",
+          "Ask questions without shame.",
+          "Trust God’s patient process."
+        ]
+      },
+      {
+        "type": "xref",
+        "label": "Cross-References",
+        "items": [
+          "Quick Help: KDR A1 (Identity)",
+          "Quick Help: KDR S1 (The Lord Is My Shepherd)"
+        ]
+      }
+    ]
+  }
+]
+
   "A": [
     {
       "code": "A1",
