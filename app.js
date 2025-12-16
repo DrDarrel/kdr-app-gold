@@ -106,23 +106,27 @@ const crossrefs = crossrefsVal
   `;
 }
 
-fetch('kdr.json?v=' + Date.now(), { cache: 'no-store' })
-  .then(r => {
-    if(!r.ok) throw new Error('kdr.json HTTP ' + r.status);
-    return r.json();
-  })
-  .then(data => {
-    kdrData = data;
+fetch('kdr.json?v=' + Date.now())
+  .then(r => r.text())
+  .then(txt => {
+    // Show that we fetched something
+    console.log('kdr.json bytes:', txt.length);
 
-    loadCards('A-list', data.A || [], 'A-Series');
-    loadCards('S-list', data.S || [], 'S-Series');
-    loadCards('P-list', data.P || [], 'P-Series');
+    try {
+      const data = JSON.parse(txt);
+      kdrData = data;
 
-    console.log('✅ Loaded:', (data.A||[]).length, (data.S||[]).length, (data.P||[]).length, (data.C||[]).length);
+      loadCards('A-list', data.A || [], 'A-Series');
+      loadCards('S-list', data.S || [], 'S-Series');
+      loadCards('P-list', data.P || [], 'P-Series');
+
+      alert('KDR LOADED ✅  A:' + (data.A||[]).length + '  S:' + (data.S||[]).length + '  P:' + (data.P||[]).length + '  C:' + (data.C||[]).length);
+    } catch (e) {
+      alert('KDR JSON PARSE FAILED ❌\n' + e.message);
+    }
   })
   .catch(err => {
-    console.error('Error loading KDR data', err);
-    alert('KDR did not load: ' + err.message);
+    alert('KDR FETCH FAILED ❌\n' + err.message);
   });
 
 
