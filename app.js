@@ -106,7 +106,8 @@ const crossrefs = crossrefsVal
   `;
 }
 
-fetch('https://drdarrel.github.io/kdr.json?v=' + Date.now(), { cache: 'no-store' })
+fetch('https://drdarrel.github.io/kdr.json')
+  
   .then(r => r.text())
   .then(txt => {
     // Show that we fetched something
