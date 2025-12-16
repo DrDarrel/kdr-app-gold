@@ -131,6 +131,7 @@ fetch('kdr.json?v=' + Date.now())
 
 
 
+
 function loadCards(containerId, cards, seriesLabel){
   const c = document.getElementById(containerId);
 
