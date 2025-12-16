@@ -83,8 +83,15 @@ function renderCardHtml(seriesLabel, card){
   const pray = card.pray ? `<p><span class="subheading">Pray:</span> ${card.pray}</p>` : '';
   const evening = card.evening ? `<p><span class="subheading">Evening Check-In:</span><br>${card.evening.replace(/\n/g, '<br>')}</p>` : '';
   const supports = card.supports ? `<p><span class="subheading">Wise Supports:</span><br>${card.supports.replace(/\n/g, '<br>')}</p>` : '';
-  const crossrefs = card.crossrefs ? `<p><span class="subheading">Cross-References:</span><br>${card.crossrefs.replace(/\n/g, '<br>')}</p>` : '';
+  const crossrefsVal = Array.isArray(card.crossrefs)
+  ? card.crossrefs.join('<br>')
+  : (card.crossrefs ? String(card.crossrefs).replace(/\n/g, '<br>') : '');
 
+const crossrefs = crossrefsVal
+  ? `<p><span class="subheading">Cross-References:</span><br>${crossrefsVal}</p>`
+  : '';
+
+  
   return `
     <h3>${seriesLabel}: ${card.code ? card.code + ' — ' : ''}${card.title || ''}</h3>
     ${narrative}
