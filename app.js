@@ -134,6 +134,11 @@ function loadCards(containerId, cards, seriesLabel){
 // HELP ME (Crisis Care) Modal
 // ---------------------------
 function openHelp(){
+  if(!kdrData){
+    alert('Loading cards… try again in a moment.');
+    return;
+  }
+
   const modal = document.getElementById('helpModal');
   if(!modal) return;
   modal.classList.add('show');
@@ -141,6 +146,7 @@ function openHelp(){
   showHelpList();
   renderCrisisList();
 }
+
 
 function closeHelp(){
   const modal = document.getElementById('helpModal');
