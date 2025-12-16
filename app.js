@@ -106,7 +106,8 @@ const crossrefs = crossrefsVal
   `;
 }
 
-fetch('kdr.json')
+fetch('kdr.json?v=' + Date.now(), { cache: 'no-store' })
+  
   .then(r=>r.json())
   .then(data=>{
     kdrData = data;
