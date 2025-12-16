@@ -116,20 +116,15 @@ fetch('kdr.json?v=' + Date.now(), { cache: 'no-store' })
 
     loadCards('A-list', data.A || [], 'A-Series');
     loadCards('S-list', data.S || [], 'S-Series');
-    loadCards('P-list', data.P || [], 'S-Series');
     loadCards('P-list', data.P || [], 'P-Series');
 
-    console.log('✅ KDR loaded:', {
-      A: (data.A||[]).length,
-      S: (data.S||[]).length,
-      P: (data.P||[]).length,
-      C: (data.C||[]).length
-    });
+    console.log('✅ Loaded:', (data.A||[]).length, (data.S||[]).length, (data.P||[]).length, (data.C||[]).length);
   })
   .catch(err => {
     console.error('Error loading KDR data', err);
-    alert('KDR did not load. Error: ' + err.message);
+    alert('KDR did not load: ' + err.message);
   });
+
 
 
 function loadCards(containerId, cards, seriesLabel){
