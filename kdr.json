@@ -1,18 +1,67 @@
 {
 "C": [
   {
-    "code": "C_TEST",
-    "title": "C TEST CARD",
-    "narrative": "If you can see this card, the C pipeline is working.",
-    "anchor_ref": "TEST",
-    "align": "TEST",
-    "act": "TEST",
-    "pray": "TEST",
-    "evening": "TEST",
-    "supports": "TEST",
-    "crossrefs": []
+    "code": "C1",
+    "title": "CRISIS CARE: WHEN I FEEL UNSAFE OR OVERWHELMED",
+    "narrative": "If you feel unsafe, panicked, or like you might harm yourself or someone else, treat this moment like an emergency. You are not weak—you are human. Crisis is not the time to debate your worth; it is the time to move toward safety and support. The Kingdom does not shame you for needing help. Choose the next right step: get safe, get connected, and let steady hands help you carry this moment.",
+    "anchor_ref": "Psalm 34:18 (KJV) — “The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.”",
+    "align": "1) My life is precious to God.\n2) I do not have to handle this alone.\n3) Getting help is wisdom, not failure.\n4) This moment is real, but it is not the final chapter.",
+    "act": "1) If you are in immediate danger: call 911 now.\n2) If you can: call or text a trusted person and say, “I need support right now.”\n3) Move to a safer space (well-lit, around people if possible).\n4) Remove anything that could be used to harm yourself/others.\n5) Breathe: inhale 4 seconds, hold 4, exhale 6. Repeat 5 times.\n6) If in the U.S., call or text 988 (Suicide & Crisis Lifeline). If outside the U.S., contact your local emergency/crisis number.",
+    "pray": "Father, I need You right now. Bring me into safety. Quiet my mind, steady my body, and surround me with help. I receive Your nearness, Your protection, and Your peace. Lead me to the next right step. In Jesus’ name, Amen.",
+    "evening": "1) What made today feel unsafe or unbearable?\n2) Who did I reach out to, and what support did I receive?\n3) What is one boundary or support I can put in place for tomorrow?\n4) What truth did God remind me of today?",
+    "supports": "Trusted person call/text • Pastor/elder • Professional counselor/therapist • Primary care provider • 988 (U.S.) • Emergency services (911 U.S.) • Local crisis line (non-U.S.)",
+    "crossrefs": ["A1", "A2", "P1"]
+  },
+  {
+    "code": "C2",
+    "title": "CRISIS CARE: PANIC, ANXIETY SPIKE, OR FEAR ATTACK",
+    "narrative": "Panic feels like danger, even when you are not in danger. Your body is sounding an alarm—and alarms can be reset. You don’t have to win a debate with fear; you can interrupt the cycle, ground yourself, and return to steady. The Lord is not surprised by your symptoms. He is present in the storm and skilled at bringing you back to peace.",
+    "anchor_ref": "Isaiah 41:10 (KJV) — “Fear thou not; for I am with thee… I will strengthen thee; yea, I will help thee.”",
+    "align": "1) This is a panic response, not a prophecy.\n2) My breathing can lead my body back to calm.\n3) God is with me in this moment.\n4) I can take one steady step at a time.",
+    "act": "1) Name it: “This is panic/anxiety.”\n2) Ground: 5 things you see, 4 you feel, 3 you hear, 2 you smell, 1 you taste.\n3) Breathe: inhale 4, hold 4, exhale 6 (repeat 8 rounds).\n4) Relax shoulders/jaw; place both feet on the floor.\n5) Sip water if available.\n6) Text/call someone: “I’m having anxiety—can you stay with me for a few minutes?”",
+    "pray": "Lord Jesus, calm my heart and steady my mind. I receive Your peace that passes understanding. Let fear lose its grip, and let Your presence anchor me. I am safe in Your hands. Amen.",
+    "evening": "1) What triggered the spike?\n2) What helped most (breathing, grounding, calling someone)?\n3) What boundary or plan can reduce this trigger tomorrow?\n4) What truth do I want to remember next time?",
+    "supports": "Breathing + grounding • Walk outside briefly • Cold water on hands/face • Talk to a trusted person • Counselor/therapist if recurring or severe",
+    "crossrefs": ["A1", "P1"]
+  },
+  {
+    "code": "C3",
+    "title": "CRISIS CARE: AFTER A RELAPSE — SHAME IS LOUD",
+    "narrative": "Relapse tries to redefine you. Shame says, “You’re fake,” but the Kingdom says, “You’re still My child.” Conviction leads you back to God; condemnation drives you away from Him. If you fell, don’t build a home on the floor. Stand up. Return to the Father. Repair what needs repair—and keep walking.",
+    "anchor_ref": "Romans 8:1 (KJV) — “There is therefore now no condemnation to them which are in Christ Jesus…”",
+    "align": "1) Shame is not my identity.\n2) I can confess, reset, and rebuild.\n3) God’s mercy is real, not theoretical.\n4) Growth is proved by return, not perfection.",
+    "act": "1) Confess quickly to God—no speeches.\n2) Identify the trigger: hungry/angry/lonely/tired/stressed?\n3) Remove access: delete, block, discard, relocate.\n4) Contact accountability: “I need help resetting.”\n5) Do one restoring action: prayer, shower, walk, journaling, Scripture, sleep.\n6) Plan the next 24 hours with guardrails.",
+    "pray": "Father, I confess my sin and I return to You. Wash me, restore me, and strengthen me. I refuse condemnation and I receive mercy. Teach me the way of escape and rebuild my discipline. In Jesus’ name, Amen.",
+    "evening": "1) What was the trigger and what warning signs did I ignore?\n2) What boundary will I strengthen?\n3) Who will I stay accountable to?\n4) What truth will I speak when shame tries to talk again?",
+    "supports": "Accountability partner • Pastor/mentor • Filter/blocking tools • Recovery group • Professional counseling for compulsive patterns",
+    "crossrefs": ["A2", "P1", "S1"]
+  },
+  {
+    "code": "C4",
+    "title": "CRISIS CARE: ANGER, URGES, OR RAGE — BEFORE I REACT",
+    "narrative": "Anger is a signal, not a steering wheel. In crisis-level anger, your goal is not to prove a point—it is to prevent damage. You can pause. You can step away. You can choose restraint as strength. The King’s way is power under control.",
+    "anchor_ref": "Proverbs 16:32 (KJV) — “He that is slow to anger is better than the mighty…”",
+    "align": "1) I can feel anger without obeying it.\n2) A pause protects my future.\n3) I am responsible for my next action.\n4) God can give me self-control in real time.",
+    "act": "1) Pause: do not speak for 60 seconds.\n2) Create space: step into another room or outside.\n3) Regulate: inhale 4, exhale 6 (10 rounds).\n4) Cold reset: splash water or hold something cold.\n5) If needed, text: “I’m too activated to talk right now. I need time to cool down.”\n6) If violence feels possible: leave immediately and call for help.",
+    "pray": "Father, rule over my emotions. Give me self-control and wisdom. Guard my mouth and my hands. Let peace take the lead. I surrender this moment to Your Spirit. In Jesus’ name, Amen.",
+    "evening": "1) What happened right before I escalated?\n2) What boundary do I need (rest, space, difficult conversation plan)?\n3) Who can help me process this safely?\n4) What would a Kingdom response look like next time?",
+    "supports": "Time-out plan • Anger management counseling • Trusted mediator • Pastor/mentor • Emergency help if safety is at risk",
+    "crossrefs": ["A3", "P1", "S1"]
+  },
+  {
+    "code": "C5",
+    "title": "CRISIS CARE: WHEN I FEEL SPIRITUALLY ATTACKED OR TORMENTED",
+    "narrative": "Spiritual warfare often intensifies when destiny is near. The enemy aims for your mind—fear, shame, confusion, accusation. But you are not defenseless. Jesus has authority, and you have access to His victory. Your assignment is not to panic; it is to stand, speak truth, and stay connected to light, people, and wise support.",
+    "anchor_ref": "2 Timothy 1:7 (KJV) — “For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”",
+    "align": "1) Fear is not my portion.\n2) My mind can be sound.\n3) Jesus has already defeated the enemy.\n4) I win by staying in truth, not by chasing shadows.",
+    "act": "1) Speak aloud: “In Jesus’ name, I reject fear, shame, and accusation.”\n2) Read one Psalm out loud (Psalm 23, 27, or 91).\n3) Turn on light / change environment.\n4) Call someone safe and grounded; do not isolate.\n5) If sleep is hard, use calm worship or Scripture audio.\n6) If experiences are persistent or frightening, seek pastoral care AND professional evaluation—wisdom uses every door God provides.",
+    "pray": "Lord Jesus, You are King over my mind and my home. I submit to You and resist the enemy. Cover me with peace and guard my thoughts. Let Your truth be louder than every lie. Amen.",
+    "evening": "1) What lie tried to dominate my thoughts today?\n2) What truth did I use to stand against it?\n3) Who did I stay connected to?\n4) What support do I need to strengthen my peace this week?",
+    "supports": "Pastoral covering • Trusted intercessor • Consistent sleep/food rhythms • Counselor/therapist • Medical evaluation if symptoms persist (sound mind includes wise care)",
+    "crossrefs": ["A1", "A2", "P1"]
   }
 ],
+
 
   "A": [
     {
