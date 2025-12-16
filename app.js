@@ -134,9 +134,13 @@ function loadCards(containerId, cards, seriesLabel){
 // ---------------------------
 // HELP ME (Crisis Care) Modal
 // ---------------------------
-function openHelp(){
+function openHelp(retries = 10){
   if(!kdrData){
-    alert('Loading cards… try again in a moment.');
+    if(retries > 0){
+      setTimeout(()=>openHelp(retries - 1), 500);
+    } else {
+      alert('Cards still loading. Please refresh the page once.');
+    }
     return;
   }
 
