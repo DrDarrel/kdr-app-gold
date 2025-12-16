@@ -1,372 +1,67 @@
 {
   "C": [
   {
-    "id": "C1",
-    "series": "C",
-    "title": "When I Want to Hurt Myself",
-    "tags": ["crisis", "self-harm", "suicidal-thoughts", "immediate-help", "safety"],
-    "blocks": [
-      {
-        "type": "narrative",
-        "label": "Narrative",
-        "text": "When pain becomes overwhelming, thoughts of harming yourself can surface as an attempt to quiet what hurts inside. These thoughts do not define you, and they are not proof that you are weak, faithless, or beyond help. They are a sign that you are in a real spiritual and emotional battle. The enemy targets life because life carries destiny. If he can take you out now, he believes he can cancel the future God placed within you.\n\nThis moment is not your ending. You are not your thoughts. You are a child of the King whose life still matters. This card exists to interrupt the spiral and remind you: you are worth protecting—right now."
-      },
-      {
-        "type": "anchor",
-        "label": "Anchor Scriptures",
-        "items": [
-          "Psalm 34:18 (KJV) — “The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.”",
-          "Jeremiah 29:11 (KJV) — “For I know the thoughts that I think toward you… to give you an expected end.”",
-          "Romans 8:38–39 (KJV) — Nothing can separate us from the love of God."
-        ]
-      },
-      {
-        "type": "align",
-        "label": "Align (Heart)",
-        "items": [
-          "I am not an accident; I am an assignment.",
-          "My life is valuable to God—even when I cannot feel it.",
-          "These thoughts are an attack, not my identity.",
-          "I choose life in this moment."
-        ]
-      },
-      {
-        "type": "act",
-        "label": "Act (Steps)",
-        "items": [
-          "Place a hand on your chest and breathe slowly for 30 seconds. Say, “God, keep me.”",
-          "Create distance from anything you could use to harm yourself.",
-          "Contact a trusted person now and say, “I’m not okay. I need you.”",
-          "Read Psalm 34 aloud (as much as you can).",
-          "If thoughts feel unsafe or uncontrollable, seek immediate help (see Crisis Note)."
-        ]
-      },
-      {
-        "type": "pray",
-        "label": "Pray",
-        "text": "Father, I am overwhelmed and need Your protection. I reject the lie that my life has no value. Hold me through this moment and surround me with help. Remind me why You created me. Amen."
-      },
-      {
-        "type": "checkin",
-        "label": "Evening Check-In",
-        "items": [
-          "Did I tell someone the truth about how I felt today?",
-          "What helped me stay here, even when it was hard?",
-          "Where did I sense God’s nearness?"
-        ]
-      },
-      {
-        "type": "supports",
-        "label": "Wise Supports",
-        "items": [
-          "Do not fight these thoughts alone.",
-          "Write three reasons your life matters (even if belief feels weak).",
-          "Stay connected to a pastor, counselor, or trusted mentor."
-        ]
-      },
-      {
-        "type": "crisis_note",
-        "label": "Crisis Note (Immediate Help)",
-        "text": "If you feel you may act on thoughts of self-harm or suicide, seek help immediately.\n- U.S.: Call or text 988 — Suicide & Crisis Lifeline (24/7, confidential).\n- Outside the U.S.: Contact your local emergency number or a trusted crisis line."
-      },
-      {
-        "type": "xref",
-        "label": "Cross-References",
-        "items": [
-          "Quick Help: KDR A1 (Identity)",
-          "Quick Help: KDR S4 (God Is My Refuge and Strength)",
-          "Quick Help: KDR P5 (Forgiveness & Freedom)"
-        ]
-      }
-    ]
+    "code": "C1",
+    "title": "CRISIS CARE: WHEN I FEEL UNSAFE OR OVERWHELMED",
+    "narrative": "If you feel unsafe, panicked, or like you might harm yourself or someone else, treat this moment like an emergency. You are not weak—you are human. Crisis is not the time to debate your worth; it is the time to move toward safety and support. The Kingdom does not shame you for needing help. Choose the next right step: get safe, get connected, and let steady hands help you carry this moment.",
+    "anchor_ref": "Psalm 34:18 (KJV) — “The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.”",
+    "align": "1) My life is precious to God.\n2) I do not have to handle this alone.\n3) Getting help is wisdom, not failure.\n4) This moment is real, but it is not the final chapter.",
+    "act": "1) If you are in immediate danger: call 911 now.\n2) If you can: call or text a trusted person and say, “I need support right now.”\n3) Move to a safer space (well-lit, around people if possible).\n4) Remove anything that could be used to harm yourself/others.\n5) Breathe: inhale 4 seconds, hold 4, exhale 6. Repeat 5 times.\n6) If in the U.S., call or text 988 (Suicide & Crisis Lifeline). If outside the U.S., contact your local emergency/crisis number.",
+    "pray": "Father, I need You right now. Bring me into safety. Quiet my mind, steady my body, and surround me with help. I receive Your nearness, Your protection, and Your peace. Lead me to the next right step. In Jesus’ name, Amen.",
+    "evening": "1) What made today feel unsafe or unbearable?\n2) Who did I reach out to, and what support did I receive?\n3) What is one boundary or support I can put in place for tomorrow?\n4) What truth did God remind me of today?",
+    "supports": "Trusted person call/text • Pastor/elder • Professional counselor/therapist • Primary care provider • 988 (U.S.) • Emergency services (911 U.S.) • Local crisis line (non-U.S.)",
+    "crossrefs": ["A1", "A2", "P1"]
   },
   {
-    "id": "C2",
-    "series": "C",
-    "title": "When I Feel Like Disappearing",
-    "tags": ["crisis", "overwhelm", "withdrawal", "escape", "refuge"],
-    "blocks": [
-      {
-        "type": "narrative",
-        "label": "Narrative",
-        "text": "Sometimes the desire isn’t to die, but to escape—to disappear from pressure, expectations, shame, or exhaustion. This urge signals overload, not worthlessness. God sees you fully. Wanting to disappear means you need refuge, not erasure."
-      },
-      {
-        "type": "anchor",
-        "label": "Anchor Scriptures",
-        "items": [
-          "Psalm 139:7–10 (KJV) — Wherever you go, God is there.",
-          "Psalm 61:2 (KJV) — “When my heart is overwhelmed: lead me to the rock that is higher than I.”"
-        ]
-      },
-      {
-        "type": "align",
-        "label": "Align (Heart)",
-        "items": [
-          "God sees me even when I feel unseen.",
-          "Rest is permitted; isolation is not required.",
-          "I am allowed to pause without disappearing."
-        ]
-      },
-      {
-        "type": "act",
-        "label": "Act (Steps)",
-        "items": [
-          "Name what you want to escape from and give it to God.",
-          "Move to a quieter, safer space.",
-          "Say, “Jesus, be my refuge right now.”",
-          "Ask one person to simply be present.",
-          "Make one small life-preserving choice (rest, water, step away)."
-        ]
-      },
-      {
-        "type": "pray",
-        "label": "Pray",
-        "text": "Lord, hide me in You. Be my refuge when everything feels too much. Cover me with Your peace. Amen."
-      },
-      {
-        "type": "checkin",
-        "label": "Evening Check-In",
-        "items": [
-          "When did I feel the urge to withdraw today?",
-          "What helped me remain present?",
-          "Where did God provide support?"
-        ]
-      },
-      {
-        "type": "supports",
-        "label": "Wise Supports",
-        "items": [
-          "Schedule regular rest.",
-          "Let trusted people know withdrawal often signals overwhelm.",
-          "Avoid big decisions when you want to disappear."
-        ]
-      },
-      {
-        "type": "xref",
-        "label": "Cross-References",
-        "items": [
-          "Quick Help: KDR S3 (Be Still and Know)",
-          "Quick Help: KDR P3 (Peace & Patience)"
-        ]
-      }
-    ]
+    "code": "C2",
+    "title": "CRISIS CARE: PANIC, ANXIETY SPIKE, OR FEAR ATTACK",
+    "narrative": "Panic feels like danger, even when you are not in danger. Your body is sounding an alarm—and alarms can be reset. You don’t have to win a debate with fear; you can interrupt the cycle, ground yourself, and return to steady. The Lord is not surprised by your symptoms. He is present in the storm and skilled at bringing you back to peace.",
+    "anchor_ref": "Isaiah 41:10 (KJV) — “Fear thou not; for I am with thee… I will strengthen thee; yea, I will help thee.”",
+    "align": "1) This is a panic response, not a prophecy.\n2) My breathing can lead my body back to calm.\n3) God is with me in this moment.\n4) I can take one steady step at a time.",
+    "act": "1) Name it: “This is panic/anxiety.”\n2) Ground: 5 things you see, 4 you feel, 3 you hear, 2 you smell, 1 you taste.\n3) Breathe: inhale 4, hold 4, exhale 6 (repeat 8 rounds).\n4) Relax shoulders/jaw; place both feet on the floor.\n5) Sip water if available.\n6) Text/call someone: “I’m having anxiety—can you stay with me for a few minutes?”",
+    "pray": "Lord Jesus, calm my heart and steady my mind. I receive Your peace that passes understanding. Let fear lose its grip, and let Your presence anchor me. I am safe in Your hands. Amen.",
+    "evening": "1) What triggered the spike?\n2) What helped most (breathing, grounding, calling someone)?\n3) What boundary or plan can reduce this trigger tomorrow?\n4) What truth do I want to remember next time?",
+    "supports": "Breathing + grounding • Walk outside briefly • Cold water on hands/face • Talk to a trusted person • Counselor/therapist if recurring or severe",
+    "crossrefs": ["A1", "A1", "P1"]
   },
   {
-    "id": "C3",
-    "series": "C",
-    "title": "When Dark Thoughts Come Suddenly",
-    "tags": ["crisis", "intrusive-thoughts", "mind", "spiritual-warfare", "authority"],
-    "blocks": [
-      {
-        "type": "narrative",
-        "label": "Narrative",
-        "text": "Sudden intrusive thoughts can be frightening. A thought is not consent. A flash is not failure. These moments are often attempts to breach the mind’s gate. In Christ, you have authority to reject what does not belong."
-      },
-      {
-        "type": "anchor",
-        "label": "Anchor Scriptures",
-        "items": [
-          "2 Corinthians 10:5 (KJV) — Bringing thoughts into captivity.",
-          "Philippians 4:8 (KJV) — Set the mind on what is true."
-        ]
-      },
-      {
-        "type": "align",
-        "label": "Align (Heart)",
-        "items": [
-          "I do not have to agree with every thought.",
-          "In Christ, my mind can be guarded.",
-          "These flashes are attacks—not my desires."
-        ]
-      },
-      {
-        "type": "act",
-        "label": "Act (Steps)",
-        "items": [
-          "Say aloud: “I reject that thought in Jesus’ name.”",
-          "Replace it with Scripture (Psalm 118:17).",
-          "Change posture or environment.",
-          "Tell God honestly what scared you."
-        ]
-      },
-      {
-        "type": "pray",
-        "label": "Pray",
-        "text": "Lord, guard my mind. Teach me to cast down imaginations and walk in truth. Amen."
-      },
-      {
-        "type": "checkin",
-        "label": "Evening Check-In",
-        "items": [
-          "What thoughts needed correcting today?",
-          "How quickly did I respond with truth?",
-          "Which Scripture helped most?"
-        ]
-      },
-      {
-        "type": "supports",
-        "label": "Wise Supports",
-        "items": [
-          "Memorize life-giving Scriptures.",
-          "Limit media that feeds dark imagery.",
-          "Share early with a trusted person if flashes increase."
-        ]
-      },
-      {
-        "type": "xref",
-        "label": "Cross-References",
-        "items": [
-          "Quick Help: KDR P2 (Trust & Surrender)",
-          "Quick Help: KDR S2 (The Lord Is My Light and Salvation)"
-        ]
-      }
-    ]
+    "code": "C3",
+    "title": "CRISIS CARE: AFTER A RELAPSE — SHAME IS LOUD",
+    "narrative": "Relapse tries to redefine you. Shame says, “You’re fake,” but the Kingdom says, “You’re still My child.” Conviction leads you back to God; condemnation drives you away from Him. If you fell, don’t build a home on the floor. Stand up. Return to the Father. Repair what needs repair—and keep walking.",
+    "anchor_ref": "Romans 8:1 (KJV) — “There is therefore now no condemnation to them which are in Christ Jesus…”",
+    "align": "1) Shame is not my identity.\n2) I can confess, reset, and rebuild.\n3) God’s mercy is real, not theoretical.\n4) Growth is proved by return, not perfection.",
+    "act": "1) Confess quickly to God—no speeches.\n2) Identify the trigger: hungry/angry/lonely/tired/stressed?\n3) Remove access: delete, block, discard, relocate.\n4) Contact accountability: “I need help resetting.”\n5) Do one restoring action: prayer, shower, walk, journaling, Scripture, sleep.\n6) Plan the next 24 hours with guardrails.",
+    "pray": "Father, I confess my sin and I return to You. Wash me, restore me, and strengthen me. I refuse condemnation and I receive mercy. Teach me the way of escape and rebuild my discipline. In Jesus’ name, Amen.",
+    "evening": "1) What was the trigger and what warning signs did I ignore?\n2) What boundary will I strengthen?\n3) Who will I stay accountable to?\n4) What truth will I speak when shame tries to talk again?",
+    "supports": "Accountability partner • Pastor/mentor • Filter/blocking tools • Recovery group • Professional counseling for compulsive patterns",
+    "crossrefs": ["A2", "P1", "S1"]
   },
   {
-    "id": "C4",
-    "series": "C",
-    "title": "When I Feel Hopeless and Heavy",
-    "tags": ["crisis", "depression", "heaviness", "hope", "lament"],
-    "blocks": [
-      {
-        "type": "narrative",
-        "label": "Narrative",
-        "text": "Heaviness can linger like a fog. Scripture honors honest lament and promises God’s nearness in sorrow. This season is not your identity. Even in the valley, the Shepherd walks with you."
-      },
-      {
-        "type": "anchor",
-        "label": "Anchor Scriptures",
-        "items": [
-          "Psalm 42:5 (KJV) — Hope in God.",
-          "Isaiah 61:3 (KJV) — The garment of praise for heaviness."
-        ]
-      },
-      {
-        "type": "align",
-        "label": "Align (Heart)",
-        "items": [
-          "God has not left me.",
-          "My feelings are real, but they are not my ruler.",
-          "Hope remains possible."
-        ]
-      },
-      {
-        "type": "act",
-        "label": "Act (Steps)",
-        "items": [
-          "Name the heaviness before God.",
-          "Do one gentle body-care step.",
-          "Play one worship song focused on God’s faithfulness.",
-          "Tell someone, “I’m struggling today.”"
-        ]
-      },
-      {
-        "type": "pray",
-        "label": "Pray",
-        "text": "Father, exchange my heaviness for hope. Walk with me and remind me I am not alone. Amen."
-      },
-      {
-        "type": "checkin",
-        "label": "Evening Check-In",
-        "items": [
-          "What small step did I take today?",
-          "Who did I let in?",
-          "Where did I see God’s kindness?"
-        ]
-      },
-      {
-        "type": "supports",
-        "label": "Wise Supports",
-        "items": [
-          "Keep simple daily rhythms.",
-          "Seek pastoral or Christian counseling support.",
-          "Reduce comparison triggers."
-        ]
-      },
-      {
-        "type": "xref",
-        "label": "Cross-References",
-        "items": [
-          "Quick Help: KDR P1 (Worship & Gratitude)",
-          "Quick Help: KDR A30 (Contentment)"
-        ]
-      }
-    ]
+    "code": "C4",
+    "title": "CRISIS CARE: ANGER, URGES, OR RAGE — BEFORE I REACT",
+    "narrative": "Anger is a signal, not a steering wheel. In crisis-level anger, your goal is not to prove a point—it is to prevent damage. You can pause. You can step away. You can choose restraint as strength. The King’s way is power under control.",
+    "anchor_ref": "Proverbs 16:32 (KJV) — “He that is slow to anger is better than the mighty…”",
+    "align": "1) I can feel anger without obeying it.\n2) A pause protects my future.\n3) I am responsible for my next action.\n4) God can give me self-control in real time.",
+    "act": "1) Pause: do not speak for 60 seconds.\n2) Create space: step into another room or outside.\n3) Regulate: inhale 4, exhale 6 (10 rounds).\n4) Cold reset: splash water or hold something cold.\n5) If needed, text: “I’m too activated to talk right now. I need time to cool down.”\n6) If violence feels possible: leave immediately and call for help.",
+    "pray": "Father, rule over my emotions. Give me self-control and wisdom. Guard my mouth and my hands. Let peace take the lead. I surrender this moment to Your Spirit. In Jesus’ name, Amen.",
+    "evening": "1) What happened right before I escalated?\n2) What boundary do I need (rest, space, difficult conversation plan)?\n3) Who can help me process this safely?\n4) What would a Kingdom response look like next time?",
+    "supports": "Time-out plan • Anger management counseling • Trusted mediator • Pastor/mentor • Emergency help if safety is at risk",
+    "crossrefs": ["A3", "P1", "S1"]
   },
   {
-    "id": "C5",
-    "series": "C",
-    "title": "When My Identity Feels Confused or Broken",
-    "tags": ["crisis", "identity", "confusion", "clarity"],
-    "blocks": [
-      {
-        "type": "narrative",
-        "label": "Narrative",
-        "text": "Identity confusion can be painful and disorienting. God is not the author of confusion. He formed you with intention and walks patiently with your questions. Your truest identity begins with Him."
-      },
-      {
-        "type": "anchor",
-        "label": "Anchor Scriptures",
-        "items": [
-          "Psalm 139:13–14 (KJV) — Fearfully and wonderfully made.",
-          "Jeremiah 1:5 (KJV) — Known and appointed.",
-          "1 Corinthians 14:33 (KJV) — God is not the author of confusion."
-        ]
-      },
-      {
-        "type": "align",
-        "label": "Align (Heart)",
-        "items": [
-          "God knows me better than I know myself.",
-          "I am not a mistake.",
-          "Confusion is not my destiny."
-        ]
-      },
-      {
-        "type": "act",
-        "label": "Act (Steps)",
-        "items": [
-          "Invite God into your questions.",
-          "Write three Scripture-based identity truths.",
-          "Limit voices that amplify confusion.",
-          "Seek wise, compassionate believers."
-        ]
-      },
-      {
-        "type": "pray",
-        "label": "Pray",
-        "text": "Father, calm the noise and speak truth to my identity. Lead me into clarity one step at a time. Amen."
-      },
-      {
-        "type": "checkin",
-        "label": "Evening Check-In",
-        "items": [
-          "Where did confusion surface today?",
-          "What brought peace?",
-          "What truth can I carry tomorrow?"
-        ]
-      },
-      {
-        "type": "supports",
-        "label": "Wise Supports",
-        "items": [
-          "Do not journey alone.",
-          "Ask questions without shame.",
-          "Trust God’s patient process."
-        ]
-      },
-      {
-        "type": "xref",
-        "label": "Cross-References",
-        "items": [
-          "Quick Help: KDR A1 (Identity)",
-          "Quick Help: KDR S1 (The Lord Is My Shepherd)"
-        ]
-      }
-    ]
+    "code": "C5",
+    "title": "CRISIS CARE: WHEN I FEEL SPIRITUALLY ATTACKED OR TORMENTED",
+    "narrative": "Spiritual warfare often intensifies when destiny is near. The enemy aims for your mind—fear, shame, confusion, accusation. But you are not defenseless. Jesus has authority, and you have access to His victory. Your assignment is not to panic; it is to stand, speak truth, and stay connected to light, people, and wise support.",
+    "anchor_ref": "2 Timothy 1:7 (KJV) — “For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.”",
+    "align": "1) Fear is not my portion.\n2) My mind can be sound.\n3) Jesus has already defeated the enemy.\n4) I win by staying in truth, not by chasing shadows.",
+    "act": "1) Speak aloud: “In Jesus’ name, I reject fear, shame, and accusation.”\n2) Read one Psalm out loud (Psalm 23, 27, or 91).\n3) Turn on light / change environment.\n4) Call someone safe and grounded; do not isolate.\n5) If sleep is hard, use calm worship or Scripture audio.\n6) If experiences are persistent or frightening, seek pastoral care AND professional evaluation—wisdom uses every door God provides.",
+    "pray": "Lord Jesus, You are King over my mind and my home. I submit to You and resist the enemy. Cover me with peace and guard my thoughts. Let Your truth be louder than every lie. Amen.",
+    "evening": "1) What lie tried to dominate my thoughts today?\n2) What truth did I use to stand against it?\n3) Who did I stay connected to?\n4) What support do I need to strengthen my peace this week?",
+    "supports": "Pastoral covering • Trusted intercessor • Consistent sleep/food rhythms • Counselor/therapist • Medical evaluation if symptoms persist (sound mind includes wise care)",
+    "crossrefs": ["A1", "A2", "P1"]
   }
 ],
+
 
   "A": [
     {
