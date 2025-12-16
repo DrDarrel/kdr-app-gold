@@ -134,6 +134,12 @@ fetch('kdr.json?v=' + Date.now(), { cache: 'no-store' })
 
 function loadCards(containerId, cards, seriesLabel){
   const c = document.getElementById(containerId);
+
+  if(!c){
+    alert('Missing container in index.html: #' + containerId);
+    return;
+  }
+
   c.innerHTML = '';
 
   cards.forEach(card => {
